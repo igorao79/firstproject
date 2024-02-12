@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="block">
+        <div class="ram">
+            <div class="card1">
+                <div class="ccard1">
+                    <img class="mori" src="./imgs/kokou-no-hito.gif" alt="">
+                    <button class="btn" onclick="showInfo('Card 1')">SHOW INFO</button>
+                    <div class="popup" id="popup1">
+                        <div class="popup-content">
+                            <h1>Information for Card 1</h1>
+                            <p>Переведённый ученик, которого побудили взобраться на здание школы. <br> Достигнув вершины, он испытал неведанное до этого чувство эйфории и заинтересовался скалолазанием. Он одиночка, утверждающий, что не нуждается в друзьях. <br> И кажется, что ему пришлось пройти через многое в прошлом. <br> Предпочитает подниматься на гору в одиночку, нежели с партнёром.</p>
+                            <img class="zzz" src="./imgs/31c2f27893c0145ff1fd5b403908dce3.jpg" alt="">
+                        </div>
+                        <button class="close-btn" onclick="closePopup('popup1')">Close</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card2">
+                <div class="ccard1">
+                    <img src="./imgs/vagabond.gif" alt="" class="mori">
+                    <button class="btn" onclick="openPopup('popup2')">SHOW INFO</button>
+            <div id="popup2" class="popup">
+                <div class="popup-content">
+                    <h1>Information for Card 2</h1>
+                    <p>Миямото Мусаси『宮本 武蔵』 — имя, данное Сохо Такуаном ещё молодому Такедзо. Миямото - деревня, в которой он родился и вырос, Мусаси же - китайский вариант прочтения иероглифов его имени. Получив новый "псевдоним", Синмен стал скитаться по Японии, сражаясь с огромным количеством воинов.</p>
+                    <img src="./imgs/nGb1K3XX1vI.jpg" alt="" class="zzz">
+                </div>
+                <button class="close-btn" onclick="closePopup('popup2')">Close</button>
+            </div>
+                </div>
+            </div>
+            <div class="card3">
+                <div class="ccard1">
+                    <img src="./imgs/icegif-1323.gif" alt="" class="mori">
+                    <button class="btn" onclick="openPopup('popup3')">SHOW INFO</button>
+                    <div id="popup3" class="popup">
+                        <div class="popup-content">
+                            <h1>Information for Card 3</h1>
+                            <p>Известный как «Чёрный мечник», — бывший наёмник — клеймённый странник, который путешествует по миру в постоянной внутренней борьбе между преследованием собственных целей и поддержанием своих привязанностей к тем, кто ему дорог.</p>
+                            <img src="./imgs/1669156755_25-pibig-info-p-gats-manga-krasivo-26.jpg" alt="" class="zzz">
+                        </div>
+                        <button class="close-btn" onclick="closePopup('popup3')">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
